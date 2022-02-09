@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodape";
+    grid-template-columns: 50px auto auto;
+    grid-template-rows: 250px auto auto;
+}
+
+.cabecalho {
+   display: flex;
+   align-items: center;
+
+    grid-area: cabecalho;
+    background-image: url(/img/cabecalho2.jpg);
+}
+
